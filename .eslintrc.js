@@ -8,13 +8,13 @@ module.exports = {
         ecmaFeatures: {
             jsx: true
         },
-        ecmaVersion: 13,
+        ecmaVersion: 12,
         sourceType: "module"
     },
     plugins: ["react"],
     rules: {
-        "indent": ["error", 4],
-        "quotes":["error","double",{"allowTemplateLiterals": true}],
-        "semi": [1, 'always'],
+        indent: ["error", 4],
+        quotes: ["error", "double", { allowTemplateLiterals: true }],
+        semi: [1, "always"]
     }
 };
